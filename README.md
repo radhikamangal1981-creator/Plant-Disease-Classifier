@@ -38,7 +38,7 @@ The first frozen MobileNetV2 did not use the correct input scaling, while the im
 - Only 5 classes. The model has no "unknown" option, so it returns one of the 5 labels for any image, even a non-leaf.
 - PlantVillage images have clean backgrounds, and the dataset contains near-duplicate photos of the same leaf. Validation accuracy is therefore likely higher than real-world accuracy.
 - Results come from a single validation split and one training run per model. There is no separate test set.
-- Performance on real-world photos (different backgrounds and lighting) was not evaluated.
+- Informal tests on web photos of leaves were mostly wrong, so the model does not generalize beyond PlantVillage-style images (single leaf, clean background). This has not been measured on a proper set of photos yet.
 - The app is a demo, not a substitute for expert diagnosis.
 
 ## Repository structure
@@ -62,6 +62,7 @@ streamlit run app.py
 
 - Evaluate on real-world photos (for example PlantDoc) and report the drop in accuracy
 - Add Grad-CAM to check whether the model focuses on the lesion or the background
+- Measure accuracy on real-world photos (for example PlantDoc) and retrain with stronger augmentation or real-world data to close the gap
 - Add a fine-tuned MobileNetV2 variant
 - Add more classes and an "unknown" option
 
