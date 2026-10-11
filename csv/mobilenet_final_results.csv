@@ -1,0 +1,2 @@
+Model,Val acc,Val loss,Best val acc,Macro F1
+MobileNetV2 (aug + weights),0.99210524559021,0.02088240161538124,0.9929824471473694,0.9874291085404044
