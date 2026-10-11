@@ -2,10 +2,10 @@
 
 Classifies apple, potato, and tomato leaf images into 5 classes using transfer learning (MobileNetV2) in TensorFlow, and compares it with a custom CNN baseline. Deployed as a Streamlit web app.
 
-**Live demo:** [LINK](https://plant-disease-classifier-1.streamlit.app/)
+**Live demo:** https://plant-disease-classifier-1.streamlit.app/
 
-![(<img width="772" height="821" alt="image" src="https://github.com/user-attachments/assets/ba41881e-db09-4958-9d33-133a3b170398" />
-)]
+<img width="772" height="821" alt="image" src="https://github.com/user-attachments/assets/ba41881e-db09-4958-9d33-133a3b170398" />
+
 
 ## Dataset
 
