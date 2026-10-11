@@ -3,7 +3,7 @@
 Classifies apple, potato, and tomato leaf images into 5 classes using
 transfer learning (MobileNetV2) in TensorFlow, deployed with Streamlit.
 
-**Live demo:** [your-app-link](https://plant-disease-classifier-1.streamlit.app/)]
+**Live demo:** [app-link](https://plant-disease-classifier-1.streamlit.app/)]
 
 ## Classes
 Apple scab, Apple healthy, Potato early blight, Potato healthy, Tomato mosaic virus
